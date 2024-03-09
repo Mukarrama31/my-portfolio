@@ -6,71 +6,97 @@
     height: 100%;
 }
 
-img {
-    width: 100%;
-    display: flex;
-}
-
 body {
-    background-color: #18181B;
+    height: 100vh;
+    background-color: #212529;
     font-family: 'Nunito Sans', 'Open Sans', Arial, sans-serif, system-ui,system-ui, 'Roboto';
-    padding: 0;
-    margin: 0;
 
 }
 
-nav {
-    max-width: 1200px;
-    margin: auto;
-    padding: 2rem 1rem;
+h2 {
+    margin-left: 20px;
+}
+
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
+    height: 80px;
+    padding: 0 50px;
 }
 
-.nav-logo {
-    max-width: 100px;
+.navbar h2 {
+    color: #ffb742;
+    font-weight: 600;
 }
 
-.nav-links {
-    list-style: none;
+.navbar ul {
     display: flex;
+    margin-left: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 50px;
+    transition: color 0.3s ease-in-out;
     align-items: center;
-    gap: 3rem;
 }
 
-.link a{
-    position: relative;
-    padding-bottom: 0.75rem;
-    color: #fff;    
+.navbar ul li:hover a {
+    color: #ffb742
 }
 
-.link a::after {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #1d4ed8;
-    transition: all 0.3s ease;
-}
-
-.link a:hover::after {
-    width: 70%
+.navbar ul li:last-child a {
+    margin: 0;
 }
 
 .btn {
-    padding: 1rem 3rem;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #1d4ed8;
-    border-radius: 5px;
+    background-color: #ffb742;
+    padding: 6px 30px;
+    border: none;
+    font-size: 16px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    border-radius: 6px;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 85px;
 }
 
 .btn:hover {
-    background-color: #1e40af;
+    background-color: #ffb74270;
+}
+h3 {
+    font-size: 20px;
+    color: #ccc;
+}
+.main {
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main p.title {
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 10px ;
+}
+
+.main p.subtitle {
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+.main img {
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
 }
