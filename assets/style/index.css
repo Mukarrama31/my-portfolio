@@ -100,3 +100,164 @@ h3 {
     height: 300px;
     margin-top: 50px;
 }
+
+.gurantee {
+    margin-top: 50px;
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+
+.gurantee .item {
+    background: #292b2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width:100%;
+    border-radius: 10px;
+    padding: 0 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.gurantee .item:hover {
+    border-color: #ffb742;
+}
+
+.gurantee .item .icon {
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.gurantee .item:hover .icon {
+    background-color: #ffb742;
+}
+
+.gurantee .item .icon i {
+    font-size: 30px;
+}
+
+.gurantee .item .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gurantee .item .info h3 {
+    color: #ffb742;
+    font-size: 27px;
+}
+
+.gurantee .item .info p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.gurantee .item > i {
+    color: #fff;
+    font-size: 30px;
+    transition: color 0.3s ease-in-out;
+}
+
+.gurantee .item:hover > i {
+    color: #ffb742;
+}
+
+.seperate {
+    margin: 50px 50px 30px;
+    padding: 10px 20px;
+    background: rgb(255 255 255 / 0.08);
+    display: inline-block;
+    color: #ffb742;
+    border-radius: 12px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding: 0 50px;
+}
+
+.about img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.about .info h3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about .info p {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.about .info button {
+    margin-top: 30px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 52px;
+}
+
+.skills .left {
+    width: 682px;
+}
+
+.skills .left .info h3 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.skills .left .info p {
+    color: #ccc;
+    font-size: 15px;
+}
+
+.skills .left button {
+    margin-top: 30px;
+}
+
+.skills .right {
+    width: 420px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills .right .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #383e45;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.skills .right .item  i {
+    font-size: 32px;
+    color: #fff;
+}
