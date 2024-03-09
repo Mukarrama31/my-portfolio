@@ -74,6 +74,11 @@ h3 {
     font-size: 20px;
     color: #ccc;
 }
+
+h6 {
+    color: #1c1c1c;
+    font-size: 24px;
+}
 .main {
     height: 640px;
     display: flex;
@@ -180,6 +185,7 @@ h3 {
     display: inline-block;
     color: #ffb742;
     border-radius: 12px;
+    font-size: 25px;
 }
 
 .about {
@@ -261,3 +267,87 @@ h3 {
     font-size: 32px;
     color: #fff;
 }
+
+footer {
+    position: relative;
+    background: #1c1c1c;
+    padding: 80px 50px 40px;
+    margin-top: 100px;
+}
+
+footer .start {
+    display: flex;
+    margin-left: 420px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    background-color: #ffb742;
+    padding: 30px 25px;
+    border-radius: 15px;
+    width: 70%;
+    top: -16%;
+    left: -15%;
+
+}
+
+footer .start p {
+    font-size: 13px;
+    width: 35%;
+}
+
+footer .start button{
+    background: transparent;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 100px;
+    transition: all 0.3s ease-in-out;
+}
+
+footer .start button:hover {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+footer .col {
+    display: flex;
+    align-items: start;
+}
+
+footer .col .about-col {
+    flex: 3;
+}
+
+footer .col .about-col h3 {
+    color: #ffb742;
+    margin-bottom: 20px;
+}
+
+footer .col .about-col p {
+    color: #ccc;
+    font-size: 20px;
+}
+
+footer .col .links-col {
+    flex: 3;
+}
+
+footer .col .links-col h4 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer .col .links-col a {
+    display: inline-block;
+    justify-content: space-between;
+    padding-inline: 10px;
+    text-decoration: none;
+    color: #7b7b7b;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+footer .cols .links-col a:hover {
+    color: #ffb742;
+}
+
