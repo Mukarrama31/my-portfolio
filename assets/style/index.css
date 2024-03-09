@@ -347,7 +347,142 @@ footer .col .links-col a {
     line-height: 26px;
 }
 
-footer .cols .links-col a:hover {
+footer .col .links-col a:hover {
     color: #ffb742;
 }
 
+@media screen and (max-width: 1100px) {
+    .gurantee {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .gurantee .item {
+        flex-basis: 49%;
+    }
+
+    .skills {
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .skills .left {
+        width: 500px;
+    }
+    .skills .left .info h3 {
+        font-size: 23px;
+    }
+    .skills .left .info p {
+        font-size: 12px;
+    }
+    footer {
+        margin-top: 150px;
+    }
+    footer .start {
+        width: 90%;
+        left: 5%;
+        top: -20%;
+    }
+    footer .col {
+        flex-wrap: wrap;
+    }
+    footer .col .about-col {
+        flex-basis: 50%;
+    }
+    footer .col .links-col {
+        flex-basis: 50%;
+    }
+}
+@media screen and (max-width: 780px) {
+    .navbar button {
+        display: none;
+    }
+    .main h4 {
+        font-size: 24px;
+    }
+
+    .main p.title {
+        font-size: 36px;
+    }
+
+    .main p.subtitle {
+        font-size: 13px;
+    }
+    .gurantee .item {
+        flex-basis: 100%;
+    }
+    .about {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .navbar {
+        justify-content: center;
+    }
+    .navbar h2 {
+        display: none;
+    }
+    .navbar ul li a {
+        font-size: 14px;
+    }
+    .main {
+        margin-top: 50px;
+        height: 320px;
+        justify-content: start;
+    }
+    .main h4 {
+        font-size: 20px;
+    }
+    .main p.title {
+        font-size: 20px;
+    }
+    .main p.subtitle {
+        font-size: 11px;
+    }
+    .main img {
+        margin-top: 40px;
+        width: 150px;
+        height: 150px;
+    }
+    .skills {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .skills .right {
+        justify-content: space-between;
+    }
+    .skills .left .info h3{
+        font-size: 20px;
+    }
+
+    footer .start {
+        top: -8%;
+        left: -80%;
+    }
+    footer .start p {
+        display: none;
+    }
+    footer .col .about-col {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+
+    footer .col .links-col {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .gurantee .item .info h3 {
+        font-size: 20px;
+    }
+    .gurantee .item .info p {
+        font-size: 12px;
+    }
+    .main p.title {
+        font-size: 18px;
+    }
+    .main p.subtitle {
+        font-size: 10px;
+    }
+}
